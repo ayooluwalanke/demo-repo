@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0%;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(238, 238, 238, 0.911);
+}
+.eligibility{
+    background-color: white;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.24);
+    margin-top: 15%;
+    width: 51%;
+    margin-left: 30%;
+    height: 260px;
+    border-radius: 12px;
+    text-align: center;
+}
+.center{
+    padding: 20px;
+}
+.canada{
+    padding-left: 72px;
+    padding-right: 72px;
+}
+button{
+    background-color: rgba(238, 238, 238, 0.637);
+    padding: 6px 24px;
+    border-radius: 6px;
+    border: none;
+    color: grey;
+}
+button:hover{
+    background-color: rgba(202, 202, 202, 0.637);
+    transition: all 300ms ease-in;
+}
+button:active{
+    color: rgb(21, 93, 248);
+    border: 2px solid rgb(21, 93, 248);
+}
+.country{
+    margin-top: 7%;
+}
+.country h3{
+    color: rgb(21, 93, 248);
+    font-size: 26px;
+}
+.btn_side{
+    margin-top: 3%;
+}
+.percentage{
+    color: grey;
+}
+.second{
+    padding-top: 0;
+    margin-top: -3%;
+}
+.united{
+   margin-top: -3%;
+   padding-left: 20px;
+}
+
+.like_h h3{
+    font-size: 22px;
+}
+.citizenship h3{
+    color: rgb(21, 93, 248);
+    font-size: 26px;
+}
+.next{
+    color: white;
+    background-color: rgb(0, 60, 255);
+    padding: 8px 4rem;
+    margin-top: 4%;
+    margin-left: 40%;
+}
+.nextub{
+    color: white;
+    background-color: rgb(0, 60, 255);
+    padding: 8px 4rem;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+.nextcit{
+    color: white;
+    background-color: rgb(0, 60, 255);
+    padding: 8px 4rem;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+.last{
+    padding: 6px 24px;
+}
+
+.tuber{
+    margin-top: 14%;
+    width: 85%;
+    margin-left: 8%;
+}
+.mental{
+    padding: 5px;
+}
+.conviction{
+    padding: 5px;
+}
+.Question h3{
+    margin-top: 3%;
+    color: rgb(21, 93, 248);
+    font-size: 24px;
+}
+.Question_ment h3{
+    margin-top: 1%;
+    color: rgb(21, 93, 248);
+    font-size: 24px;
+}
+.Question_con h3{
+    margin-top: 1%;
+    color: rgb(21, 93, 248);
+    font-size: 24px;
+}
+.Question_cit h3{
+    margin-top: 3%;
+    color: rgb(21, 93, 248);
+    font-size: 24px;
+}
+.drop{
+    margin-top: 3%;
+}
+.citizen{
+    height: 200px;
+    margin-top: 15%;
+}
+
+
+.yes , .No{
+    padding: 6px 4rem;
+}
+/*   FOR JAVA SCRIPT */
+.hide{
+    display: none;
+}
+.width{
+    width: 58%;
+    height: 400px;
+    margin-top: 12%;
+    margin-left: 24%;
+}
+.show{
+    display: block;
+}
+.blue{
+    border: 2px solid rgb(21, 93, 248);
+    color: rgb(21, 93, 248);
+}
+select{
+    width: 100%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+select:focus{
+    border: 2px solid rgb(21, 93, 248);
+}
+select option{
+    background-color: rgba(0, 183, 255, 0.233);
+    margin: 12px 4rem;
+}
+
+/* HEIGHT WHEN I PRESS NO */
+.heightn{
+    height: 400px;
+}
+.heightnd{
+    height: 560px;
+    margin-top: 3%;
+}
+.heightrd{
+    height: 580px;
+}
+/* HEIGHT WHEN I PRESS YES */
